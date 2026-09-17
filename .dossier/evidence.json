@@ -1,0 +1,85 @@
+{
+  "repoPath": "/Users/parkerfawcett/mossgate",
+  "generatedAt": "2026-09-17T00:07:33.581Z",
+  "packageJson": {
+    "name": "mossgate",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "16.2.2",
+      "react": "19.2.4",
+      "react-dom": "19.2.4"
+    },
+    "devDependencies": {
+      "@types/node": "22.10.5",
+      "@types/react": "19.2.4",
+      "@types/react-dom": "19.2.4",
+      "playwright": "1.61.1",
+      "typescript": "5.9.3"
+    }
+  },
+  "buildConfig": [
+    {
+      "tool": "next",
+      "configFile": "next.config.ts",
+      "fields": {},
+      "unresolved": []
+    }
+  ],
+  "routes": [
+    {
+      "path": "/about",
+      "file": "src/app/about/page.tsx",
+      "kind": "page",
+      "startLine": 3
+    },
+    {
+      "path": "/care-guides",
+      "file": "src/app/care-guides/page.tsx",
+      "kind": "page",
+      "startLine": 3
+    },
+    {
+      "path": "/contact",
+      "file": "src/app/contact/page.tsx",
+      "kind": "page",
+      "startLine": 5
+    },
+    {
+      "path": "/events",
+      "file": "src/app/events/page.tsx",
+      "kind": "page",
+      "startLine": 3
+    },
+    {
+      "path": "/faq",
+      "file": "src/app/faq/page.tsx",
+      "kind": "page",
+      "startLine": 3
+    },
+    {
+      "path": "/",
+      "file": "src/app/page.tsx",
+      "kind": "page",
+      "startLine": 5
+    },
+    {
+      "path": "/plants",
+      "file": "src/app/plants/page.tsx",
+      "kind": "page",
+      "startLine": 5
+    },
+    {
+      "path": "/visit",
+      "file": "src/app/visit/page.tsx",
+      "kind": "page",
+      "startLine": 3
+    }
+  ],
+  "existingTests": [],
+  "signals": []
+}

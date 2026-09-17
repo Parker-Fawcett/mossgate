@@ -6,7 +6,7 @@ export function PlantCard({ plant }: { plant: Plant }) {
       <h3>{plant.name}</h3>
       <p className="plant-card__price">${plant.price}</p>
       <p className="plant-card__light">{plant.light}</p>
-      <p className="plant-card__stock">{plant.inStock ? 'In stock' : 'Out of stock'}</p>
+      <p className="plant-card__stock">{!plant.inStock ? 'Out of stock' : 'In stock'}</p>
     </article>
   );
 }
